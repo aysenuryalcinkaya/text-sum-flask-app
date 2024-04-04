@@ -1,0 +1,43 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Türkçe Metin Özetleyici</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- style.css ekleniyor -->
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="background">
+            <div class="header fixed-top">
+               
+              
+            </div>
+        </div>
+
+        <h1 class="mb-4" >Türkçe Metin Özetleyici</h1>
+        <form method="post" action="/summarize">
+            <div class="mb-3">
+                <label for="text" class="form-label">Metni girin:</label>
+                <textarea class="form-control" id="text" name="text" rows="10" style="box-shadow: 7px 7px 5px lightgray;" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Özetle</button>
+        </form>
+        <!-- Arka plan ve alt taraf için eklenen bölümler -->
+        <div class="background">
+            <div class="footer fixed-bottom">
+                
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

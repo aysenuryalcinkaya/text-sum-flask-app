@@ -1,0 +1,74 @@
+/* static/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    font-size: xx-large;
+}
+
+h3 {
+    color: #333;
+    font-size: x-large;
+}
+
+h2 {
+    font-size: large;
+}
+
+.btn-primary {
+    background-color: #a03737;
+    border-color: #a03737;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #a03737;
+    border-color: #a03737;
+}
+
+.background {
+    margin: 40px;
+    padding: 20px;
+}
+
+.header {
+    background-color: #a03737;
+    /* Üst taraf arkaplan rengi */
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 100px;
+}
+
+.footer {
+    background-color: #a03737;
+    /* Alt taraf arkaplan rengi */
+    padding: 20px;
+    margin-top: 20px;
+    text-align: end;
+    font-size: medium;
+    height: 100px;
+}
+
+
+/* Yeni özellikler */
+
+.results-container {
+    margin-top: 30px;
+}
+
+.results-container p {
+    white-space: pre-line;
+    /* Metin içerisindeki yeni satır karakterlerini korumak için */
+}
+
+.save-btn {
+    margin-top: 10px;
+}
